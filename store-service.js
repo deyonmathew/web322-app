@@ -6,8 +6,8 @@ I declare that this assignment is my own work in accordance with Seneca  Academi
 Name: Deyon Mathew 
 Student ID: 145864237 
 Date: 06-02-2025
-replit Web App URL: _______________________________________________________
-GitHub Repository URL: ______________________________________________________
+replit Web App URL: https://2f594c70-1864-491c-9f63-62e51c70d86e-00-30w5hoqr00qt4.riker.replit.dev/
+GitHub Repository URL: https://github.com/deyonmathew/web322-app
 
 ********************************************************************************/
 
