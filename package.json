@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "Mahathelge Nimesh Chandupa Peiris",
+  "author": "Deyon Mathew",
   "license": "ISC",
   "description": "",
   "dependencies": {
