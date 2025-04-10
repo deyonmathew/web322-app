@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef; /* Soft Gray */
+    color: #222; /* Near Black */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #212529 !important; /* Dark Charcoal */
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #ffc107 !important; /* Golden accent */
+}
+
+.navbar-nav .nav-link {
+    color: #dee2e6 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Hero / About Section */
+section.main {
+    background-size: cover;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dark overlay */
+section.main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+/* Text sits above overlay */
+section.main article {
+    position: relative;
+    z-index: 2;
+}
+
+/* Right Column / Sidebar */
+aside {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #212529;
+    color: #f8f9fa;
+    font-size: 0.95rem;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    section.main {
+        background-size: contain;
+        text-align: center;
+    }
+}
